@@ -23,6 +23,17 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+#image {
+  max-width: 100%;
+  height: auto;
+}
+#img-caption {
+  font-style: italic;
+}
+#tribute-info {
+  text-align: center;
+  word-wrap: break-word;
+}
 .italic {
   font-style: italic;
 }
