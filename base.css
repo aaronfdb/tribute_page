@@ -6,6 +6,7 @@ body {
 	background-position: center top;
 	max-width: 100%;
 	padding-top: 20px;
+  background-color: #F0F0F0;
 }
 #title {
   color: #000;
@@ -17,11 +18,12 @@ body {
 	max-width: 100%;
 }
 #img-div {
-  max-width: 100%;
+  width: 800px;
   height: auto;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  background-color: #FFFFFF;
 }
 #image {
   max-width: 100%;
@@ -29,6 +31,7 @@ body {
 }
 #img-caption {
   font-style: italic;
+  text-align: center;
 }
 #tribute-info {
   text-align: center;
