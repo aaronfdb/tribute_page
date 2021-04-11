@@ -26,8 +26,9 @@ body {
   background-color: #FFFFFF;
 }
 #image {
-  max-width: 100%;
-  height: auto;
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
 }
 #img-caption {
   font-style: italic;
@@ -36,6 +37,11 @@ body {
 #tribute-info {
   text-align: center;
   word-wrap: break-word;
+}
+#tribute-link {
+    color: red;
+    text-decoration: none;
+    text-transform: uppercase;
 }
 .italic {
   font-style: italic;
